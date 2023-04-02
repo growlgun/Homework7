@@ -6,7 +6,9 @@ public class StatisticsService {
             for (long income : incomes) {
                 if (currentMax < income) {
                     currentMax = income;
+
                 }
+
             }
             return currentMax;
         }
